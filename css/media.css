@@ -1,0 +1,69 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .grid-item img{
+    padding-top: 50px;
+  }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  nav a{
+    margin-top: 1rem;
+  }
+  .nav-list li{
+    display: none;
+  }
+  .sect-heading-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #07031A;
+  }
+  .about-grid{
+    display: block;
+  }
+  .grid-item img{
+    width: 100%;
+  }
+  .hidden-image{
+    display: none;
+  }
+  .title h1{
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .content p{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .double-grid{
+    display: block;
+  }
+  .left-items{
+    text-align: justify;
+  }
+  .icons i{
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+}
+
+/* Small phones to small tablets: from 650px to 767px */
+@media only screen and (max-width: 767px) {
+ 
+}
+
+/* Small phones: from 480px to 650px */
+@media only screen and (max-width: 650px) {
+  
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
+
