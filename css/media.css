@@ -50,6 +50,9 @@
     padding-right: 20px;
     padding-left: 0px;
   }
+  footer{
+    height: 80vh;
+  }
 }
 
 /* Small phones to small tablets: from 650px to 767px */
